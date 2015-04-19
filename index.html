@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Ladies Learning Code</title>
+    <!-- Don't alter slideshow.css, CSSS slide deck needs it to work -->
+    <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+
+    <!-- Theme-specific styles -->
+    <link href='http://fonts.googleapis.com/css?family=Quicksand%7CPacifico%7COpen+Sans:400italic,400,300' rel='stylesheet' type='text/css' data-noprefix>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="framework/css/highlightjs-themes/github.css" data-noprefix>
+    <link rel="stylesheet" href="framework/css/theme-llc.css" data-noprefix>
+    <link rel="shortcut icon" href="framework/img/favicon.ico"> 
+
+    <!-- Workshop-specific styles -->
+    <link rel="stylesheet" href="framework/css/workshop.css" data-noprefix>
+
+    <!-- Takes care of CSS3 prefixes! -->
+    <script src="framework/scripts/prefixfree.min.js"></script>
+
+    <!-- opens all links in a new window -->
+    <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body data-duration="360">
+    
+    <!-- Welcome slide -->
+    <header class="slide intro first">
+        <img class="logo" src="framework/img/logo-llc-white.png" alt="Ladies Learning Code logo">
+        <div class="info">
+            <h1 class="heading-bg">
+                <span class="dark">Welcome to</span><br>
+                <span>Ladies Learning Code!</span>
+            </h1>
+            <!-- <div class="heading-bg connected">
+                <span class="dark">GET CONNECTED:</span>
+                <span class="light">NETWORK: network name</span><br>
+                <span class="light">PASSWORD: thepassword</span>
+            </div> -->
+        </div>
+
+        <div class="sponsor">
+            <p>In partnership with:</p>
+            <img src="framework/img/telus-logo-white.svg" alt="Telus logo">
+        </div>
+    </header>
+
+    <main>
+        <!-- Instructor info -->
+        <section class="slide intro">
+            <img class="logo" src="framework/img/logo-llc-white.png" alt="Ladies Learning Code logo">
+            <div class="info">
+                <h1 class="heading-bg">
+                    <span>Getting Hosted</span><br>
+                    <span>with Rebel</span>
+                </h1>
+                <h2><span>with</span> Jessica Duarte</h2>
+
+                <!-- <img class="instructor-img" src="http://cl.ly/image/0r3Q3H110G36/profile-generic.jpg" alt="instructor name"> -->
+                <ul>
+                   <!--  <li><i class="fa fa-envelope"></i><a href="mailto:">hello@email.com</a></li>
+                    <li><i class="fa fa-desktop"></i><a href="#">mywebsite.com</a></li> -->
+                    <li><i class="fa fa-twitter"></i><a href="http://twitter.com/">@jessicaduarte</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="slide title">
+            <h1>FTP</h1>
+            <h2>and all that jazz...</h2>
+        </section>
+        <section class="slide" data-markdown>
+            ##Understanding servers
+            - We build websites on our computers. All our website files go inside our folder. 
+            - To put that website "online", all we need to do is move our folder to a server, or host.  
+        </section>
+        <section class="slide" data-markdown>
+            ##What is a server?
+            - A server is a computer, just like our laptops, but they never turn off and they are always connected to the internet. 
+            - Hosts own many different servers, and their job is to make sure that servers run properly so that our websites are always available. 
+        </section>
+        <section class="slide">
+            <h2>How do we get our files to the server? </h2>
+            <p>It's easy! Almost as easy as dragging a file from one folder to another. </p>
+            <div style="width: 70%; margin:0 auto" class="ftp">
+                <img style="vertical-align: middle;" width="300px"class="ftp" src="framework/img/noun_114_cc.svg" alt="laptop">
+                <img style="vertical-align: middle;" width="100px"class="ftp"src="framework/img/noun_8930_cc.svg" alt="folder">
+                <img style="vertical-align: middle;" width="300px"class="ftp"src="framework/img/noun_29558_cc.svg" alt="servers">
+            </div>
+            <ol>
+                <li>First, we get a server and a domain. Also known as a host. Today we'll be using Rebel.</li>
+                <li>Second, we get an FTP client.</li>
+                <li>We use our FTP client to upload files to our server.</li>
+            </ol>
+            
+        </section>
+        <section class="slide" data-markdown>
+            ##How to get a server and domain
+            - You may purchase space on a server from a <em>host</em>. 
+            - Many hosts exist but today we will be using Rebel who has generously donated free hosting and domains for everyone.
+
+        </section>
+        <section class="slide" data-markdown>
+            ##What's the difference between a server and a domain? 
+            - A server is the computer that will "host" the folder with our files. 
+            - The domain is the internet address that people will have to use to access that folder on the server. 
+            - Though most hosts will also sell you domains, you can purchase these separately and then connect them through your hosting provider. 
+            - So for example, if you've purchased a domain on GoDaddy, but would like to host your website on Rebel, don't worry! You can easily transfer your domain to Rebel, or "point" it to the rebel server.
+            - Pointing a domain means that when someone goes to your website, GoDaddy will redirect that address to your Rebel-hosted website. No one will tell the difference.
+        </section>
+
+        <section class="slide" data-markdown>
+            ##Setting up with Rebel
+         
+               
+               1. Go to www.rebel.com and select web hosting under  Email & Hosting in the top right navigation
+               2. Choose ‘THE IDOL’ hosting plan 
+               3. Search for your desired domain in the pop up that appears
+               4. Once you’ve selected an available domain you will be directed to a login page with a green bar indicating your hosting is ready to go. Login or follow the steps to create a new free account and click “complete registration”.
+               5. Once you have completed your registration, go to your shopping cart (icon in the top right corner of your page).
+               6. Enter the promo code LLCHACK the ‘Add a Promo Code’ box in the upper right corner. Click the orange ‘Apply’ button. Your total charge will then be changed to $0.
+               7. Agree to the Terms and Conditions and select ‘Process Order’ 
+               8. Welcome to Rebel!
+           
+        </section>
+        <section class="slide" >
+           <h2>Managing your hosting on Rebel</h2>
+            <ol>
+                <li>
+                    <p>Login into your rebel account. </p>
+            <img src="framework/img/Login.png" alt="login">
+                </li>
+                <li>
+                    <p>Select Manage Hosting</p>
+                    <img src="framework/img/Manage-hosting.png" alt="manage hosting">
+                </li>
+                <li>
+                    <p>Select C-Panel for your domain</p>
+                     <img src="framework/img/3 cpanel.png" height="299" width="1072" alt="c-panel">
+                </li>
+                <li>
+                    <p>You could upload directly inside the C-Panel by using the File Manager.</p>
+                    <p>Go to Tools>File Manager</p>
+                    <p>Then select the "public" folder.</p>
+                    <img src="framework/img/4. File mananger.png" height="713" width="796" alt="file manager">
+                </li>
+                <li>
+                    <p>Once in the public folder, use the upload box to select the files you'd like to upload.</p>
+                    <p>And that's it! Your website is live.</p>
+                    <img src="framework/img/5. upload into public.png" height="675" width="818" alt="upload">
+                    
+                </li>
+
+            </ol>
+        </section>
+        <section class="slide title">
+            <h1>But there's a better way!</h1>
+        </section>
+        <section class="slide">
+            <h1>FTP</h1>
+            <h2>File Transfer Protocol</h2>
+            <p>Uploading all your files one by one is tedious.</p>
+            <p>Instead, we can use FTP to upload many files at once, and do so without having to login to our host (Rebel) all the time. </p>
+            <ol>
+                <li>
+                    <p>To use FTP, we will need an FTP client. A piece of software that allows us to connect to the server and upload files.</p>
+                    <p>Before we get to the FTP client, since we're already logged into our hosting provider, let's get our FTP credentials to use later.</p>
+                    <p>In your C-Panel go to the FTP section and click on "Show Users".</p>
+                    <img src="framework/img/6.ftp.png" height="522" width="767" alt="ftp">
+                    <p>Click on the edit button next to your domain.</p>
+
+                </li>
+                <li>
+                    <p>Create a password for your ftp account. Make sure it has capital letters and numbers.</p>
+                    <img src="framework/img/7. ftp-password.png" height="493" width="765" alt="">
+                    <p>Now, we're ready to connect to our server using an FTP client.</p>
+                    <p>Don't forget that password!</p>
+                </li>
+            </ol>
+        </section>
+        <section class="slide title">
+            <h1>The FTP Client</h1>
+        </section>
+
+        <section class="slide">
+            <h2>So many clients</h2>
+            <p>There are many FTP clients available out there.</p>
+            <p>"Client" just means "a program that allows you to connect to your server and upload folders"</p>
+            <p>Today we will use <em>Cyberduck</em> as our fTP client.</p>
+            <p>If you have not downloaded it yet, please go <a href="https://cyberduck.io/?l=en">here</a></p>
+        </section>
+        <section class="slide">
+            <h2>Connecting to our Server with Cyberduck</h2>
+            <ol>
+                <li>
+                    <p>Open Cyberduck</p>
+                    <img src="framework/img/1. Open Cyberduck.png" height="530" width="606" alt="open duck">
+                </li>
+                <li>
+                    <p>Connect to Server</p>
+                    <img src="framework/img/2. Open Connection.png" height="494" width="482" alt="open Connection">
+
+                </li>
+                <li>
+                <p>Select the folder to upload to</p>
+                <img src="framework/img/3. Select the folder.png" height="518" width="597" alt="select your folder"></li>
+                <li>
+                    <p>Choose to upload files</p>
+                    <img src="framework/img/4. upload the files.png" height="540" width="582" alt="">
+                </li>
+                <li>
+                    <p>Select your files</p>
+                    <img src="framework/img/5. select files.png" height="419" width="711" alt="">
+                </li>
+                <li><p>Watch them load</p>
+                    <img src="framework/img/ 6. loading.png" height="300" width="513" alt="">
+                    
+                </li>
+                <li>Go visit your new website that is live!!!</li>
+            </ol>
+        </section>
+        <section class="slide">
+            <h2 style="margin-bottom: 20px">Here's a video walk-through by Rebel.</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/L0ZqVh5j_aE?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+
+        <!-- Last slide -->
+        <section class="slide last">
+            <h2>Thank you!</h2>
+
+            <h2 class="heading-bg">
+                <span>Getting hosted with Rebel</span><br>
+            </h2>
+            <h3><span>with </span>Jessica Duarte</h3>
+
+            <!--  <img class="instructor-img" src="http://cl.ly/image/0r3Q3H110G36/profile-generic.jpg" alt="instructor name"> -->
+            <ul>
+              <!--   <li><i class="fa fa-envelope"></i><a href="mailto:">hello@email.com</a></li>
+                <li><i class="fa fa-desktop"></i><a href="#">mywebsite.com</a></li> -->
+                <li><i class="fa fa-twitter"></i><a href="http://twitter.com/">@jessicaduarte</a></li>
+            </ul>
+
+            <p class="attribution">Slide presentation created with <a href="https://github.com/LeaVerou/csss">Lea Verou's CSS-based SlideShow System</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+        </section>
+
+    </main><!-- cls main section -->
+
+    <footer>
+        <p class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.svg" /></a> by <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="instructions">Use the left <i class="fa fa-arrow-left"></i> and right <i class="fa fa-arrow-right"></i> arrow keys to navigate</p>
+    </footer>
+    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="framework/scripts/slideshow.js"></script>
+
+    <!-- Uncomment the plugins you need -->
+    <script src="framework/scripts/plugins/css-edit.js"></script>
+    <script src="framework/scripts/plugins/css-snippets.js"></script>
+    <script src="framework/scripts/plugins/css-controls.js"></script>
+    <!-- <script src="plugins/code-highlight.js"></script>-->
+
+    <script src="framework/scripts/plugins/markdown/marked.js"></script>
+    <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+    <!-- <script src="framework/scripts/plugins/highlight/highlight.js"></script> -->
+    <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <script>
+        var slideshow = new SlideShow();
+
+        // Grabs all the .snippet elements
+        var snippets = document.querySelectorAll('.snippet');
+        for(var i=0; i<snippets.length; i++) {
+            new CSSSnippet(snippets[i]);
+        }
+
+        // Adds "edit me" note to editable code areas
+        jQuery(document).ready(function(){
+            jQuery(".snippet").before("<span class=\"edit\">edit me</span>");
+        });
+    </script>
+</body>
+</html>
